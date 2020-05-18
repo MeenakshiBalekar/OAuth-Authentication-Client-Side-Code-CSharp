@@ -15,7 +15,7 @@ namespace ClientSideApplicationForOAuth.Controllers
     {
         public async Task<ActionResult> Index()
         {
-            var secret = "-rq3WH7tIa8.uKp5E16XZgVxE_JmOLjlQmRf3fHl9uf_x6o9DzaqZJw";
+            var secret = "<Enter your secret here>";
             HttpClient client = new HttpClient();
             HttpRequestMessage request = new HttpRequestMessage(
               HttpMethod.Post,
